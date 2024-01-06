@@ -12,11 +12,12 @@ class SearchInput extends StatelessWidget {
           Container(
             margin: const EdgeInsets.all(25),
             decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20),
-                border: Border.all(
-                  color: kFontLight.withOpacity(0.3),
-                  width: 2,
-                )),
+              borderRadius: BorderRadius.circular(20),
+              border: Border.all(
+                color: kFontLight.withOpacity(0.3),
+                width: 2,
+              )
+            ),
             child: TextField(
               cursorColor: kFontLight,
               decoration: InputDecoration(
